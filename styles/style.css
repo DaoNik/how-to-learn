@@ -230,10 +230,6 @@
   color: white;
 }
 
-.table {
-  justify-content: space-between;
-}
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   z-index: 1;
