@@ -90,6 +90,7 @@
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -106,6 +107,7 @@
 }
 
 .two-columns__paragraph {
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -181,7 +183,9 @@
 /*FEYNMAN*/
 .feynman {
   position: relative;
-  min-height: 800px;
+  height: 890px;
+  padding-top: 100px;
+  box-sizing: border-box;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -212,6 +216,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 /*KAUFMAN*/
@@ -220,6 +225,7 @@
   padding: 90px 0;
   margin: 0 auto;
   background-color: #000;
+  overflow: hidden;
 }
 
 .section-title_theme_dark {
@@ -245,12 +251,11 @@
 
 .kaufman__triangle {
   position: absolute;
-  z-index: 0;
   top: 0;
   right: -210px;
   width: 877px;
   height: 877px;
-  overflow: hidden;
+  object-fit: cover;
 }
 
 /*FOOTER*/
