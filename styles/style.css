@@ -24,7 +24,6 @@
 
 .logo {
   width: 183px;
-  height: 32px;
 }
 
 .logo_place_header {
@@ -32,6 +31,7 @@
   top: 30px;
   left: 64px;
   z-index: 2;
+  height: 32px;
 }
 
 .header__title {
@@ -164,10 +164,6 @@
   width: 250px;
 }
 
-.table__cell:nth-child(4n) {
-  margin-right: 0;
-}
-
 .table__heading {
   margin: 0;
   margin-bottom: 20px;
@@ -177,14 +173,10 @@
 }
 
 .table__text {
-  margin: 0;
+  margin: 0 0 20px 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__text:first-of-type {
-  margin-bottom: 20px;
 }
 
 .table__text:last-of-type {
@@ -295,7 +287,6 @@
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
 }
 
