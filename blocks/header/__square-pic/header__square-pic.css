@@ -7,4 +7,5 @@
     background-color: #2f80ed;
     background-size: cover;
     z-index: -1;
-  }
+    transform: rotate(-16deg);
+}
