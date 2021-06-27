@@ -9,11 +9,11 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-[class*="link"] {
+a {
   transition: opacity 0.2s linear;
 
 }
 
-[class*="link"]:hover {
+a:hover {
   opacity: 70%;
 }
